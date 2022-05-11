@@ -51,25 +51,25 @@ let productos = [
       "nombre": "Cocina Escorial",
       "garantia": 4,
       "condicion": "nuevo",
-      "stock": 35,
+      "Disponible": true,
     },
     {
       "nombre": "Alfombra Baño",
       "garantia": 1,
       "condicion": "nuevo",
-      "stock": 21,
+      "Disponible": true,
     },
     {
       "nombre": "Espejo Vintage",
       "garantia": "no aplica",
       "condicion": "reacondicionado",
-      "stock": 1,
+      "Disponible": true,
     },
     {
       "nombre": "Sacacorcho",
       "garantia": 1,
       "condicion": "nuevo",
-      "stock": 5,
+      "Disponible": true,
     },
   ];
   
@@ -78,11 +78,12 @@ let productos = [
       "nombre": "Lampara Globo",
       "garantia": "No tiene",
       "condicion": "Reacondicionado",
-      "stock": "Unico",
+      "Disponible": true,
   }
   
   productos.push(articuloNuevo);
-  
+
+   
   //clientes
 
   let clientes = [
